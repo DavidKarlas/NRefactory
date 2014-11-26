@@ -214,6 +214,7 @@ namespace ICSharpCode.NRefactory6.CSharp.Refactoring
 					4,
 					Rule.Description,
 					Rule.HelpLink,
+					"",
 					node.GetLocation(),
 					null,
 					new[] { tag , floatType}

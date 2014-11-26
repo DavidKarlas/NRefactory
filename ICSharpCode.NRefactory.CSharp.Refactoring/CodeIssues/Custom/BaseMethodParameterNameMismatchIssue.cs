@@ -151,6 +151,7 @@ namespace ICSharpCode.NRefactory6.CSharp.Refactoring
 							4,
 							Rule.Description,
 							Rule.HelpLink,
+							"",
 							Location.Create(semanticModel.SyntaxTree, syntaxParams[i].Identifier.Span),
 							null,
 							new [] { baseArg.Name }
