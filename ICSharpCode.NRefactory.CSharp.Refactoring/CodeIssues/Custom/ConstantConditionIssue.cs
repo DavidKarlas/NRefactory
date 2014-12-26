@@ -115,7 +115,7 @@ namespace ICSharpCode.NRefactory6.CSharp.Refactoring
 				AddIssue (Diagnostic.Create(
 					Rule.Id,
 					Rule.Category,
-					string.Format(Rule.MessageFormat, value),
+					string.Format(Rule.MessageFormat.ToString (), value),
 					Rule.DefaultSeverity,
 					Rule.DefaultSeverity,
 					Rule.IsEnabledByDefault,
